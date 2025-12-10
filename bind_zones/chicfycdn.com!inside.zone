@@ -1,7 +1,0 @@
-$TTL 300
-; generated with dnscontrol 2025-12-10T13:47:49+02:00
-@                IN SOA   DEFAULT_NOT_SET. DEFAULT_NOT_SET. 2025121001 3600 600 604800 1440
-                 IN A     192.0.2.1
-                 IN AAAA  2001:db8::1
-server.local     IN A     10.32.0.1
-www        3600  IN CNAME chicfycdn.com.
