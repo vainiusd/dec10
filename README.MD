@@ -13,7 +13,11 @@ Deployment workflow sequence:
 `zones/` - zone configuration file directory. Subdirectories per domain.  
 `bind_zones/` - generated bind zone files.  
 
+## ENV vars
 
-
-
+These env vars need to be set:
+```
+export CF_TOKEN=
+export CF_ACCOUNT_ID=
+```
 
