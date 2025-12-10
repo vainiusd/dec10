@@ -1,5 +1,5 @@
 D("chicfycdn.com!outside", REG_NONE, DnsProvider(DNS_OUTSIDE),
-  A("@", "192.0.2.1", CF_PROXY_OFF),
+  A("@", "192.0.2.1", CF_PROXY_ON),
   AAAA("@", "2001:DB8::1"),
   CNAME("www", "@", TTL("1h"))
 );
