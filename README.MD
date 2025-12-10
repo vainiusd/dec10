@@ -10,8 +10,8 @@ Deployment workflow sequence:
 ## Configuration file structure.
 
 `dnsconfig/` - dnscontrol configuration files. Includes configurations from `zones`.  
-`zones` - zone configuration file directory. Subdirectories per domain.  
-`bind_zones` - generated bind zone files.  
+`zones/` - zone configuration file directory. Subdirectories per domain.  
+`bind_zones/` - generated bind zone files.  
 
 
 
