@@ -14,3 +14,5 @@ build :
 	dnscontrol push \
 	  --config ./dnsconfig/dnsconfig.js \
 	  --creds ./dnsconfig/creds.json
+	# Copy Bind files to bind config locations
+	# Zones need to be preprovisioned on Bind
