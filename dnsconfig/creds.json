@@ -1,0 +1,11 @@
+{
+    "bind": {
+        "TYPE": "BIND",
+        "directory": "bind_zones"
+    },
+    "cloudflare": {                  
+        "TYPE": "CLOUDFLAREAPI",
+        "accountid": "$CF_ACCOUNT_ID",
+        "apitoken": "$CF_TOKEN"
+    }
+}
